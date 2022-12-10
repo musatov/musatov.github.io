@@ -1,0 +1,283 @@
+@keyframes vacanciesBounce {
+  0% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: translateY(12px);
+    animation-timing-function: ease-in;
+  }
+
+  75% {
+    transform: translateY(8px);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    transform: translateY(10px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes vacanciesBounce2 {
+  0% {
+    transform: translateY(10px);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: translateY(-2px);
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: translateY(2px);
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes vacanciesBounce3 {
+  0% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: translateY(2px);
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: translateY(-2px);
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes vacanciesBounce4 {
+  0% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: translateY(-10px);
+    animation-timing-function: ease-out;
+  }
+
+  75% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes gearRotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes ourBlog1 {
+  0% {
+    transform: rotate(8deg);
+  }
+
+  50% {
+    transform: rotate(4deg);
+  }
+
+  80% {
+    transform: rotate(5.4deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes ourBlog2 {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(9deg);
+  }
+
+  80% {
+    transform: rotate(7.8deg);
+  }
+
+  100% {
+    transform: rotate(8deg);
+  }
+}
+
+@keyframes ourBlog3 {
+  0% {
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+    top: 52px;
+  }
+
+  80% {
+    transform: rotate(-4deg);
+    top: 52px;
+  }
+
+  100% {
+    transform: rotate(-3.4deg);
+    top: 52px;
+  }
+}
+
+@keyframes ourBlog4 {
+  0% {
+    transform: rotate(-3.4deg);
+    top: 52px;
+  }
+
+  50% {
+    transform: rotate(-8.4deg);
+    top: 67px;
+  }
+
+  80% {
+    transform: rotate(-7.8deg);
+    top: 67px;
+  }
+
+  100% {
+    transform: rotate(-8deg);
+    top: 67px;
+  }
+}
+
+
+@keyframes handAnim {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-15deg);
+  }
+
+  20% {
+    transform: rotate(0deg);
+  }
+
+  30% {
+    transform: rotate(-15deg);
+  }
+
+  40% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  80% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes keyAnimation {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-70px);
+  }
+
+  40% {
+    transform: translateX(-140px);
+  }
+
+  60% {
+    transform: translateX(-210px);
+  }
+
+  80% {
+    transform: translateX(-280px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes markerAnimation {
+  0% {
+    opacity: 1;
+
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes playBounce {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(-12px);
+  }
+  7% {
+    transform: translateY(-10px);
+  }
+  12% {
+    transform: translateY(2px);
+  }
+  13% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes moveX {
+  from { right: 0; } to { right: 1920; }
+}
+
+@keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
